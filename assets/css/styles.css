@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.contenedor-padre {
+    display: flex;                  /* Activa Flexbox */
+    align-items: flex-start;        /* Alinea los items arriba */
+    gap: 20px;                     /* Espacio entre los containers */
+    margin: 20px;      
+    border: 1px white;            /* Margen exterior opcional */
+}
+
+.contenedor-imagen {
+    flex: 0 0 auto;                /* No crece ni se encoge */
+    padding: 10px;        
+}
+
+.contenedor-imagen img {
+    width: 200px;                  /* Ajusta el ancho de la imagen */
+    height: auto;                  /* Mantiene proporción */
+}
+
