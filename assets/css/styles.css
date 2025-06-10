@@ -40,13 +40,11 @@ body {
 }
 
 .logo {
-    height: 100%;
-    /* Ocupa toda la altura del navbar */
-    max-height: 45px;
+    height: 60px;
     /* Límite de altura visible */
-    object-fit: contain;
+    object-fit: fill;
     /* Escala sin deformar */
-    display: block;
+    display: inline-block;
     cursor: pointer;
     transition: filter 0.3s ease;
 }
@@ -78,4 +76,75 @@ body {
     transform: scale(1.2);
     /* Zoom */
     color: red;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem; /* antes: 2rem 4rem */
+    height: calc(100vh - 75px);
+    background-color: #160A09;
+    color: white;
+}
+
+
+.hero-left h1 {
+    font-size: 52px;
+    margin-bottom: 1rem;
+}
+
+.social-icons img {
+    height: 32.33px;
+    width: 81.14;
+    margin-right: 0.5rem;
+}
+
+.tech-icons img {
+    height: 39.5px;
+    width: 48;
+    margin-right: 0.5rem;
+}
+
+.social-icons {
+    cursor: pointer;
+
+}
+
+.tech-icons {
+    margin-bottom: 1rem;
+}
+
+.hero-left {
+    align-items: flex-start;
+}
+.logo-oj {
+    height: 416px;
+    width: 205px;
+    /* Ajusta según tu necesidad */
+    object-fit: contain;
+    filter: drop-shadow(0 0 50px rgba(255, 0, 0, 0.6));
+}
+
+.hero-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.hero-right {
+    max-width: 40%;
+}
+
+.hero-right h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero-right p {
+    color: #ccc;
+    font-size: 18px;
+    line-height: 1.6;
 }
