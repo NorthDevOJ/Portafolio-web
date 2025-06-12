@@ -9,38 +9,35 @@
 
 html,
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
     background-color: #160A09;
 }
-
+.main {
+    max-width: 1100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(226, 74, 74, 0.05);
     font-size: 20px;
-    padding: 1rem 2rem;
-    position: absolute;
-    top: 45px;
-    left: 200px;
-    right: 150;
-    width: 86%;
-    height: 75px;
-    border-radius: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
 
 }
 
-.logo-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
+
 
 .logo {
-    height: 60px;
+    height: auto;
+    width: 120px;
     /* Límite de altura visible */
     object-fit: fill;
     /* Escala sin deformar */
@@ -81,17 +78,17 @@ body {
 .hero {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 2rem 6rem; /* antes: 2rem 4rem */
-    height: calc(100vh - 75px);
+    align-items: center; 
+    padding-top: 10%;
     background-color: #160A09;
     color: white;
 }
 
 
 .hero-left h1 {
-    font-size: 52px;
+    font-size: 48px;
     margin-bottom: 1rem;
+    white-space: nowrap;
 }
 
 .social-icons img {
@@ -115,11 +112,8 @@ body {
     margin-bottom: 1rem;
 }
 
-.hero-left {
-    align-items: flex-start;
-}
 .logo-oj {
-    height: 416px;
+    height: 300px;
     width: 205px;
     /* Ajusta según tu necesidad */
     object-fit: contain;
@@ -130,21 +124,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    padding-left: 50px;
+    padding-right: 70px;
 }
 
-.hero-right {
-    max-width: 40%;
+.hero-left {
+    right: 60px;
 }
 
 .hero-right h2 {
-    font-size: 48px;
+    font-size: 35px;
     line-height: 1.2;
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
 }
 
 .hero-right p {
+    padding-left: 10px;
     color: #ccc;
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 14px;
+    line-height: 1.5;
+
 }
