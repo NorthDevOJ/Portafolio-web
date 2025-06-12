@@ -9,44 +9,39 @@
 
 html,
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
     font-family: "Raleway", sans-serif;
     background-color: #160A09;
 }
-
+.main {
+    max-width: 1100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(226, 74, 74, 0.05);
     font-size: 20px;
-    padding: 1rem 2rem;
-    position: absolute;
-    top: 45px;
-    left: 200px;
-    right: 150;
-    width: 86%;
-    height: 75px;
-    border-radius: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
 
 }
 
-.logo-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
+
 
 .logo {
-    height: 100%;
-    /* Ocupa toda la altura del navbar */
-    max-height: 45px;
+    height: auto;
+    width: 120px;
     /* Límite de altura visible */
-    object-fit: contain;
+    object-fit: fill;
     /* Escala sin deformar */
-    display: block;
+    display: inline-block;
     cursor: pointer;
     transition: filter 0.3s ease;
 }
@@ -78,4 +73,75 @@ body {
     transform: scale(1.2);
     /* Zoom */
     color: red;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 10%;
+    background-color: #160A09;
+    color: white;
+}
+
+
+.hero-left h1 {
+    font-size: 48px;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+}
+
+.social-icons img {
+    height: 32.33px;
+    width: 81.14;
+    margin-right: 0.5rem;
+}
+
+.tech-icons img {
+    height: 39.5px;
+    width: 48;
+    margin-right: 0.5rem;
+}
+
+.social-icons {
+    cursor: pointer;
+
+}
+
+.tech-icons {
+    margin-bottom: 1rem;
+}
+
+.logo-oj {
+    height: 300px;
+    width: 205px;
+    /* Ajusta según tu necesidad */
+    object-fit: contain;
+    filter: drop-shadow(0 0 50px rgba(255, 0, 0, 0.6));
+}
+
+.hero-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+.hero-left {
+    right: 60px;
+}
+
+.hero-right h2 {
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero-right p {
+    padding-left: 10px;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.5;
+
 }
