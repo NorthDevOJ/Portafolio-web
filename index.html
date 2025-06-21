@@ -18,14 +18,15 @@
             <nav class="navbar">
                 <img src="assets/img/NORTHDEVPNG.png" alt="Logo" class="logo" />
                 <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        <section id="Home" class="hero">
         <section class="hero">
             <div class="hero-left">
                 <h1>North Dev OJ</h1>
@@ -59,7 +60,54 @@
                 </p>
             </div>
         </section>
+        </section>
     </main>
+    <section id="Projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="assets/img/project1.jpg" alt="Project 1">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="project-item">
+                <img src="assets/img/project2.jpg" alt="Project 2">
+                <h3>Project Title 2</h3>
+                <p>Short description of the project.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    <section id="Skills" class="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Java</li>
+            <!-- Add more skills as needed -->
+        </ul>       
+    </section>
+    <section id="About" class="about">
+        <h2>About Me</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </section>
+    <section id="Contact" class="contact">
+        <h2>Contact</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
 </body>
 
