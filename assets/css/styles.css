@@ -76,12 +76,15 @@ body {
 }
 
 .hero {
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
     padding-top: 10%;
     background-color: #160A09;
     color: white;
+    /*flex-wrap: wrap;*/
 }
 
 
@@ -147,7 +150,7 @@ body {
 }
 
 .projects {
-    padding: 60px 20px;
+    padding: 80px 20px;
     background-color: #1F0E0D;
     color: #fff;
     text-align: center;
