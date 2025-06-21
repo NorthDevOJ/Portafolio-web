@@ -1,6 +1,6 @@
 # 🌐 Web Portfolio
 
-This is the official repository of the Web Portfolio developed by Jean Pierre Marthé Moisés and [your teammate's name].  
+This is the official repository of the Web Portfolio developed by Jean Pierre Marthé Moisés and Oscar Andres Gil Vergara.  
 The goal is to showcase our projects, skills, and experiences in a professional and attractive way.
 
 ---
