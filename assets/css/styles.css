@@ -250,6 +250,11 @@ body {
   justify-content: center;
 }
 
+.skills-grid a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit;         /* Hereda el color del texto original */
+}
+
 .skill-card {
   background-color: #2A1311;
   border-radius: 15px;
@@ -260,6 +265,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor:help
 }
 
 .skill-card:hover {
