@@ -226,8 +226,8 @@
     <div class="contact-container">
 
       <!-- Formulario -->
-      <form action="https://formsubmit.co/ojnorthdev@gmail.com" method="POST" class="contact-form" data-aos="fade-right"
-        data-aos-duration="1000">
+      <form form action="https://formsubmit.co/ojnorthdev@gmail.com" method="POST" class="contact-form"
+        data-aos="fade-right" data-aos-duration="1000">
 
         <label for="name">Nombre:</label>
         <input type="text" id="name" name="name" required>
@@ -239,7 +239,10 @@
         <textarea id="message" name="message" rows="5" required></textarea>
 
         <button type="submit">Enviar</button>
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+
+        <input type="hidden" name="_next" value="https://northdevoj.github.io/Portafolio-web/">
+        <input type="hidden" name="_captcha" value="false">
+
       </form>
 
       <!-- Datos de contacto -->
@@ -266,7 +269,6 @@
       }
     );
   </script>
-
 </body>
 
 </html>
